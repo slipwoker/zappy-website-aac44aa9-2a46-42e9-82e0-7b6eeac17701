@@ -1,0 +1,114 @@
+# המרכז למחשבים והדפסה — Generative Engine Optimization Map
+
+> A computer and electronics retail store offering a wide range of tech products including printers, scanners, toner cartridges, ink, desktop computers, laptops, keyboards, mice, storage devices, and speakers. The store covers both office and personal computing needs, serving as a one-stop-shop for technology and peripheral equipment.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+מחשבים נייחים וניידים, מדפסות, טונרים, ראשי דיו וציוד משרדי מהמותגים המובילים — הכל במקום אחד. בקר בחנות ומצא את הפתרון הטכנולוגי שחיפשת!
+
+### פתרונות
+https://example.com/solutions
+מחפש ציוד משרדי מתקדם? מסכי מחשב, מקלדות, עכברים, רמקולים ואחסון נתונים — פתרונות מקצועיים לעסקים ולבית במחירים שלא תאמין. גלה עכשיו!
+
+### אודות
+https://example.com/about
+אנחנו לא סתם חנות — אנחנו שותפים טכנולוגיים שלך. למד על הניסיון, הערכים והמחויבות שלנו לספק מחשבים נייחים, מדפסות וציוד משרדי ברמה הגבוהה ביותר.
+
+### צור קשר
+https://example.com/contact
+יש לך שאלה על טונרים, ראשי דיו, מחשבים ניידים או מדפסות? צוות המומחים שלנו זמין עבורך. צור קשר עוד היום וקבל ייעוץ אישי ומקצועי ללא עלות!
+
+### Products
+https://example.com/products
+המוצרים שלנו - המרכז למחשבים והדפסה
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - המרכז למחשבים והדפסה
+
+### Category
+https://example.com/category/:slug
+מוצרים - המרכז למחשבים והדפסה
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About המרכז למחשבים והדפסה
+A computer and electronics retail store offering a wide range of tech products including printers, scanners, toner cartridges, ink, desktop computers, laptops, keyboards, mice, storage devices, and speakers. The store covers both office and personal computing needs, serving as a one-stop-shop for technology and peripheral equipment.
+
+## Services/Products
+- מדפסות
+- סורקים
+- טונרים
+- דיו
+- מחשבים נייחים
+- מחשבים ניידים
+- מקלדות
+- עכברים
+- אחסון
+- רמקולים
+
+## Target Audience
+- חובבי טכנולוגיה
+- בעלי עסקים קטנים
+- סטודנטים ואקדמאים
+- עובדי משרד ביתי
+- גיימרים
+
+## Industry
+טכנולוגיה וציוד משרדי
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
