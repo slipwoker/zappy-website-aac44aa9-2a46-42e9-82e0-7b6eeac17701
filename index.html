@@ -342,7 +342,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "aac44aa9-2a46-42e9-82e0-7b6eeac17701";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "aac44aa9-2a46-42e9-82e0-7b6eeac17701";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -801,10 +801,10 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="index-hero-section">
   <!-- Background Image -->
   <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A warm, lifestyle-driven desk scene bathed in soft natural window light. A sleek laptop sits open on a wooden desk beside a compact modern printer. A closed notebook, a wireless mouse, and a small potted plant complete the scene. The mood is calm and productive — warm cream and sand tones, no clutter, soft bokeh background. Shot from a slight overhead angle to show the full desk surface. Feels like a home office or study space, not a commercial showroom." width="1200" height="700" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='700'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF0083;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23FF008320;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%A1%D7%91%D7%99%D7%91%D7%AA%20%D7%A2%D7%91%D7%95%D7%93%D7%94%20%D7%A0%D7%A2%D7%99%D7%9E%D7%94%20%D7%A2%D7%9D%20%D7%9E%D7%97%D7%A9%D7%91%20%D7%A0%D7%99%D7%99%D7%93%20%D7%95%D7%9E%D7%93%D7%A4%D7%A1%D7%AA%20%D7%A2%D7%9C%20%D7%A9%D7%95%D7%9C%D7%97%D7%9F%20%D7%A2%D7%A5%20%D7%91%D7%AA%D7%90%D7%95%D7%A8%D7%94%20%D7%98%D7%91%D7%A2%D7%99%D7%AA%3C/text%3E%3C/svg%3E" alt="סביבת עבודה נעימה עם מחשב נייד ומדפסת על שולחן עץ בתאורה טבעית">
+    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A warm, lifestyle-driven desk scene bathed in soft natural window light. A sleek laptop sits open on a wooden desk beside a compact modern printer. A closed notebook, a wireless mouse, and a small potted plant complete the scene. The mood is calm and productive — warm cream and sand tones, no clutter, soft bokeh background. Shot from a slight overhead angle to show the full desk surface. Feels like a home office or study space, not a commercial showroom." width="1200" height="700" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='700'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF0083;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23FF008320;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%A1%D7%91%D7%99%D7%91%D7%AA%20%D7%A2%D7%91%D7%95%D7%93%D7%94%20%D7%A0%D7%A2%D7%99%D7%9E%D7%94%20%D7%A2%D7%9D%20%D7%9E%D7%97%D7%A9%D7%91%20%D7%A0%D7%99%D7%99%D7%93%20%D7%95%D7%9E%D7%93%D7%A4%D7%A1%D7%AA%20%D7%A2%D7%9C%20%D7%A9%D7%95%D7%9C%D7%97%D7%9F%20%D7%A2%D7%A5%20%D7%91%D7%AA%D7%90%D7%95%D7%A8%D7%94%20%D7%98%D7%91%D7%A2%D7%99%D7%AA%3C/text%3E%3C/svg%3E" alt="סביבת עבודה נעימה עם מחשב נייד ומדפסת על שולחן עץ בתאורה טבעית" data-hero-background="true" data-element-type="image" data-element-id="img-1777986127609-55js91wte">
   </div>
 
   <!-- Scrim Overlay -->
@@ -819,16 +819,16 @@
       <!-- Accent underline decoration -->
       <div class="index-hero-accent-line" aria-hidden="true"></div>
 
-      <h1 class="index-hero-h1">המרכז שלך למחשבים,<br>מדפסות וציוד משרדי</h1>
+      <h1 class="index-hero-h1" style="">המרכז שלך למחשבים,<br>מדפסות וציוד משרדי</h1>
 
-      <h3 class="index-hero-subtitle">כל מה שצריך ללימודים, לעבודה ולבית — במקום אחד.<br>מחשבים ניידים, מדפסות, טונרים, אביזרים ועוד.</h3>
+      <h3 class="index-hero-subtitle" style="">כל מה שצריך לעסק, ללימודים<br>ולבית — במקום אחד.<br>מחשבים ניידים, מדפסות, טונרים, אביזרים ועוד.</h3>
 
       <div class="index-hero-ctas">
-        <a href="/contact" class="index-hero-btn-primary">
+        <a href="/contact" class="index-hero-btn-primary" style="color: rgb(0, 0, 0) !important;" data-element-type="button" data-element-id="btn-1777986127605-rpequz73e" data-native-element="true">
           <i class="fa-solid fa-comments" aria-hidden="true"></i>
           דברו איתנו
         </a>
-        <a href="/solutions" class="index-hero-btn-secondary">
+        <a href="/solutions" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1777986127605-qnfjfrigm" data-native-element="true">
           <i class="fa-solid fa-grid-2" aria-hidden="true"></i>
           גלו את הפתרונות
         </a>
@@ -840,7 +840,7 @@
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <filter id="hero-shadow" x="-5%" y="-20%" width="110%" height="150%">
-        <fedropshadow dx="0" dy="-4" stdDeviation="6" flood-color="rgba(0,0,0,0.10)"></fedropshadow>
+        <feDropShadow dx="0" dy="-4" stdDeviation="6" flood-color="rgba(0,0,0,0.10)"></feDropShadow>
       </filter>
       <path d="M0,90 L0,55 Q80,42 180,52 T380,44 Q500,38 620,50 T840,42 Q980,36 1100,48 T1300,40 Q1370,38 1440,44 L1440,90 Z" fill="#FAF8F5" filter="url(#hero-shadow)"></path>
     </svg>
